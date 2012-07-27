@@ -10,7 +10,9 @@ import java.util.Date;
  *
  * @author ABERT
  */
-public class Prospecto {
+
+    
+    public class Prospecto {
     private String nombre;
     private String apellido_paterno;
     private String apellido_materno;
@@ -18,22 +20,7 @@ public class Prospecto {
     private String dni;
     private String telefono;
     private String fecha;
-
-    public Prospecto () {
-        
-    }
     
-    public Prospecto(String nombre,  String apellido_paterno, String apellido_materno, String email, String dni,
-        String telefono,  Date fecha) {
-       this.nombre = nombre;
-       this.apellido_paterno = apellido_paterno;
-       this.apellido_materno = apellido_materno;
-       this.email = email;
-       this.dni = dni;
-       this.telefono = telefono;
-       this.fecha = fecha;
-
-    }
     
     
     public String getApellido_materno() {
